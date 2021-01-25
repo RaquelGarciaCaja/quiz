@@ -1,0 +1,279 @@
+.quizFringe {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    opacity: 0.7;
+    height: 100%;
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.quizLost {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    opacity: 0.6;
+    height: 100%;
+    background-image: url("../images/bg-lostt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.quizNy {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    opacity: 0.6;
+    height: 100%;
+    background-image: url("../images/bg-sexand.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
+.quizFriends {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    opacity: 0.6;
+    height: 100%;
+    background-image: url("../images/bg-friends.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.quizBb {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    opacity: 0.6;
+    height: 100%;
+    background-image: url("../images/bg-breaking.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.quizSons {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    opacity: 0.6;
+    height: 100%;
+    background-image: url("../images/bg-sons.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+.quiz {
+  &--containerTitle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px;
+  }
+  &--title {
+    color: $color-words;
+    padding: 0 20px;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+  }
+  &--btnBack {
+    margin: 0 30px;
+  }
+  &--link {
+    text-decoration: none;
+  }
+
+  &--btnNext,
+  &--finalResult,
+  &--btnBack {
+    cursor: pointer;
+    padding: 4px;
+    margin: 10px;
+    transform: scale(1);
+    &:hover {
+      transform: scale(0.97);
+    }
+  }
+  &--container-result {
+    display: flex;
+    justify-content: space-around;
+  }
+  &--containerAnswer {
+    padding: 5px;
+  }
+  &--containerQuestion {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+  &--preQuestion {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &__title {
+      font-size: 20px;
+    }
+    &__subTitle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &__rules {
+      padding: 8px 0;
+      font-size: 15px;
+    }
+    &__btn {
+      padding: 4px;
+      cursor: pointer;
+      margin: 10px;
+      transform: scale(1);
+      &:hover {
+        transform: scale(0.97);
+      }
+    }
+  }
+  &__counterTime,
+  &__plusCounter,
+  &__lessCounter {
+    position: relative;
+  }
+  &--counterTime {
+    position: relative;
+  }
+}
+
+.right {
+  background: lightgreen;
+  border-radius: 8px;
+  position: relative;
+}
+.wrong {
+  background: lightcoral;
+  border-radius: 8px;
+  position: relative;
+}
+
+.counter-question {
+  padding: 3px;
+  position: relative;
+}
+
+.result-final {
+  background-color: blanchedalmond;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px;
+  position: relative;
+}
+
+.friends,
+.sons,
+.fringe,
+.ny,
+.lost,
+.bb {
+  &--container {
+    padding: 10px;
+  }
+
+  &--answer {
+    color: $color-words;
+    padding: 10px;
+    position: relative;
+    font-size: 15px;
+  }
+  &--btn {
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 3px 5px;
+    transform: scale(1);
+    &:hover {
+      transform: scale(0.97);
+    }
+  }
+  &--question {
+    color: $color-words;
+    padding: 10px;
+    position: relative;
+    font-size: 18px;
+    @media all and(min-width:768px) {
+      padding: 0;
+    }
+    @media all and(min-width:1200px) {
+      padding-bottom: 10px;
+    }
+  }
+  &--finalResult {
+    position: relative;
+    display: none;
+    cursor: pointer;
+    padding: 4px;
+    margin: 10px;
+    transform: scale(1);
+    &:hover {
+      transform: scale(0.97);
+    }
+  }
+}

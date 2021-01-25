@@ -1,0 +1,13 @@
+.subTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+  &__title {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}

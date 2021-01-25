@@ -1,0 +1,34 @@
+<section class="quiz quizLost">
+  <div class="quiz--containerTitle">
+    <a href="../index.html" class="quiz--link"><button class="quiz--btnBack">Volver</button></a>
+    <h2 class="quiz--title">Lost</h2>
+  </div>
+  <div class="quiz--preQuestion js-preQuestion">
+    <h3 class="quiz--preQuestion__title">Antes de empezar recuerda:</h3>
+    <div class="quiz--preQuestion__subTitle">
+      <h4 class="quiz--preQuestion__rules">Son 10 preguntas con 4 respuestas posibles.</h4>
+      <h4 class="quiz--preQuestion__rules">
+        Tienes 10 segundos para responder cada una de las preguntas.
+      </h4>
+    </div>
+    <button
+      class="quiz--preQuestion__btn js-btnStart"
+      onClick="printHtmlQuestionsLost(currentQuestionIndex)"
+    >
+      Inicio
+    </button>
+  </div>
+  <div class="quiz--containerQuestion js-containerQuestion">
+    <div class="lost--container"></div>
+    <div class="quiz--container-result">
+      <button class="quiz--btnNext js-start" onClick="printHtmlQuestionsLost(currentQuestionIndex)">
+        Siguiente
+      </button>
+      <button class="lost--finalResult js-resultFinal">Resultado</button>
+    </div>
+    <p class="quiz--counterTime">10</p>
+    <h4 class="quiz--plusCounter"></h4>
+    <h4 class="quiz--lessCounter"></h4>
+    <p class="quiz--result"></p>
+  </div>
+</section>
