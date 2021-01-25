@@ -20,8 +20,8 @@ const questions = [
       Id: "1",
     },
     {
-      Question: "¿Dónde se graba la serie de Friends?",
-      Answer: ["Nueva York", "California", "San Francisco", "Chicago"],
+      Question: "¿Dónde se grabÓ la serie de Friends?",
+      Answer: ["Los Ángeles", "Nueva York", "San Francisco", "Chicago"],
       Id: "2",
     },
     {
@@ -202,10 +202,10 @@ const questions = [
     {
       Question: "¿Cuáles son las últimas palabras de Charlie en la serie?",
       Answer: [
-        "'No es el barco de Penny'",
-        "'Cuidado, detrás de ti",
-        "'Porque tendrás que ser tú, Jack'",
-        "'Soy tu hijo'",
+        "No es el barco de Penny",
+        "Cuidado, detrás de ti",
+        "Porque tendrás que ser tú, Jack",
+        "Soy tu hijo",
       ],
       Id: "10",
     },
@@ -424,74 +424,6 @@ const questions = [
       ],
       Id: "10",
     },
-  ], //LOS SOPRANO
-  [
-    {
-      Question: "¿Qué animales hacen llorar a Tony en el primer capítulo?",
-      Answer: ["Patos", "Cachorritos", "Ardillas", "Koalas"],
-      Id: "1",
-    },
-    {
-      Question: "¿Cómo se llama la familia de crimen organizado a la que pertenecía Tony Soprano?",
-      Answer: ["Familia DiMeo", "Familia Rossini", "Familia Aprile", "Familia Lupertazzi"],
-
-      Id: "2",
-    },
-    {
-      Question: "¿Quién es el consigliere de Tony Soprano?",
-      Answer: ["Silvio Dante", "Christopher Moltisanti", "Paulie Gualtieri", "Carmela Soprano"],
-      Id: "3",
-    },
-    {
-      Question: "¿Por qué Tony mató a Ralph Cifaretto?",
-      Answer: [
-        "Por matar a su caballo, Pie-O-My",
-        "Por herir el honor de la esposa de Johnny Sack, burlándose de su sobrepeso",
-        "Porque era molesto y tenía cara de idiota",
-        "Por golpear a Janice",
-      ],
-      Id: "4",
-    },
-    {
-      Question: "¿Cuál es el apellido de soltera de Carmela Soprano?",
-      Answer: ["DeAngelis", "Curatola", "Ricoletti", "Tellarini"],
-      Id: "5",
-    },
-    {
-      Question: "¿Qué dos personajes se pierden en la nieve?",
-      Answer: ["Paulie y Christopher", "Ralph y Silvio", "Silvio y Bobby", "Ralph y Christopher"],
-      Id: "6",
-    },
-    {
-      Question: "¿Qué estudia la hija de Tony, Meadow?",
-      Answer: ["Drecho", "Periodismo", "Medicina", "Economía"],
-      Id: "7",
-    },
-    // {
-    //   Question: "¿Quién se alía con la policía para darle información?",
-    //   Answer: ["John", "Peter", "James", "Robert"],
-    //   Id: "8",
-    // },
-    // {
-    //   Question: "¿Dónde conoció Charlotte a su futuro esposo Harry Goldenblatt?",
-    //   Answer: [
-    //     "En la oficina de su abogado de divorcios",
-    //     "En una cafetería",
-    //     "En la iglesia",
-    //     "En un restaurante",
-    //   ],
-    //   Id: "9",
-    // },
-    // {
-    //   Question: "¿Cómo se llama el periódico para el cuál escribe Carrie?",
-    //   Answer: [
-    //     "The New York Star",
-    //     "The New York Womam",
-    //     "The New York Times",
-    //     "The New York Post",
-    //   ],
-    //   Id: "10",
-    // },
   ],
 ];
 
