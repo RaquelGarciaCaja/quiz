@@ -482,6 +482,7 @@ const answerOk = (answer, object) => {
   const containerP = object.parentNode;
   console.log(rightAnswer);
   if (answer == rightAnswer) {
+    clearInterval(timeCounter);
     containerP.classList.add("right");
     rightAnswers++;
     plusCounter.innerHTML = `<h4 class="counter-question">Correctas: ${rightAnswers}</h4>`;
