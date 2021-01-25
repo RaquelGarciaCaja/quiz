@@ -429,7 +429,7 @@ const questions = [
 
 //inicio del quiz, al presionar aparecen las preguntas y tiempo
 function timeEachQuestion() {
-  time = 10;
+  time = 20;
   clearInterval(timeCounter);
   document.querySelector(".quiz--counterTime").innerHTML = time;
   timeCounter = setInterval(() => {
