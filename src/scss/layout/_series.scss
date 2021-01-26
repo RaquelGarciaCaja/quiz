@@ -71,7 +71,7 @@
     width: 100%;
     opacity: 0.6;
     height: 100%;
-    background-image: url("../images/bg-friends.png");
+    background-image: url("../images/bg-friends.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -278,4 +278,26 @@
       transform: scale(0.97);
     }
   }
+}
+
+.quiz--counterTimeEnd {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+.main__container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

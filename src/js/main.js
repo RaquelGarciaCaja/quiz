@@ -20,7 +20,7 @@ const questions = [
       Id: "1",
     },
     {
-      Question: "¿Dónde se grabÓ la serie de Friends?",
+      Question: "¿Dónde se grabó la serie de Friends?",
       Answer: ["Los Ángeles", "Nueva York", "San Francisco", "Chicago"],
       Id: "2",
     },
@@ -70,7 +70,7 @@ const questions = [
   [
     {
       Question: "¿Cuáles son las iniciales del club de motos?",
-      Answer: ["SoA", "SONS", "SAMCRO", "SamCro"],
+      Answer: ["SAMCRO", "SONS", "SoA", "SamCro"],
       Id: "1",
     },
     {
@@ -110,12 +110,12 @@ const questions = [
       Id: "7",
     },
     {
-      Question: "Los Sons se dedican al....",
+      Question: "Los Sons trabajan en....",
       Answer: [
-        "Tráfico de armas",
-        "Tráfico de hombres y mujeres",
-        "Tráfico de motos y coches robados",
-        "Tráfico de droga",
+        "Un taller de motos",
+        "Un taller de coches",
+        "El tráfico de hombres y mujeres",
+        "El tráfico de droga",
       ],
       Id: "8",
     },
@@ -185,8 +185,8 @@ const questions = [
       Id: "6",
     },
     {
-      Question: "¿A quien elije Jacob para que salve la Isla? ",
-      Answer: ["John Locke", "Jack Sephard", "Hurley", "Benjamin Linus"],
+      Question: "¿Cómo se llamaba el padre de Ben Lynus? ",
+      Answer: ["Roger Linus", "Robert Linus", "Lionel Linus", "Ben Linus"],
       Id: "7",
     },
     {
@@ -426,8 +426,7 @@ const questions = [
     },
   ],
 ];
-
-//inicio del quiz, al presionar aparecen las preguntas y tiempo
+//tiempo
 function timeEachQuestion() {
   time = 20;
   clearInterval(timeCounter);
@@ -443,13 +442,13 @@ function timeEachQuestion() {
     }
   }, 1000);
 }
-
+//inicio juego y con reglas
 function pressToInitialQuestion() {
-  console.log("object");
   containerPreQuestion.style.display = "none";
   containerQuestions.style.display = "flex";
 }
 
+//inicio preguntas friends
 const printHtmlQuestionsFriends = (i) => {
   timeEachQuestion();
   currentQuestionIndex++;
