@@ -177,7 +177,7 @@ const questions = [
     {
       Question: "¿Que és ese humo negro que le llaman 'El Monstruo'?",
       Answer: [
-        "Un Sistema de Seguridad que aguarda en 'El Templo'",
+        "Un Sistema de Seguridad que aguarda en El Templo",
         "Una nube contaminada, llena de sonidos y catastrofes naturales",
         "El Espiritu de Jacob",
         "Un monstruo que se maneja a traves de la mente",
@@ -259,7 +259,7 @@ const questions = [
         "Lydia, la que les consigue la metilamina",
         "Mike",
         "Tuco Salamanca",
-        "No, están toda la serie con el ricina p'arriba y el ricina p'abajo y nunca lo usan",
+        "No, nunca lo usan",
       ],
       Id: "5",
     },
